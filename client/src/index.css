@@ -1,0 +1,96 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  font-family: "Poppins", sans-serif; 
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0px 8px 6px -6px gray;
+  --webkit-box-shadow:0px 8px 6px -6px gray;
+  border-bottom: 0px solid gray !important;
+
+}
+
+.nav-link{
+  font-weight: 300 !important;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  font-family: 'roboto',sans-serif;
+  letter-spacing:3px;
+}
+
+.footer{
+  color: white;
+  padding: 20px;
+  background: #000000;
+  background: --webkit-linear-gradient(
+    to right,
+    #424242,
+    #060606
+  );
+  background: linear-gradient(to right ,  #4b4a4a, #0f0f0f);
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover{
+  color: rgb(236, 229, 229);
+  border-bottom: 1px solid white;
+}
+
+.pnf{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+}
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700px;
+}
+
+.pnf-heading{
+  font-weight:normal;
+}
+
+.pnf-btn{
+  color: #000000;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-link{
+  text-decoration: none !important;
+  color: rgb(8, 8, 8) !important;
+  
+}
+
+
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Playfair Display", serif; */
